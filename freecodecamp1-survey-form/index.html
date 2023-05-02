@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+ 
+<html lang="'en"><head><script type="text/javascript" src="/___vscode_livepreview_injected_script"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&amp;display=swap" rel="stylesheet">
+
+    <title>Inquire</title>
+    <link href="styles.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+
+    <!--
+    freeCodeCamp-HTML-Forms
+    freeCODECamp : https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form
+    02-2023
+    Author: VDT
+          : gitHub: @devinci-it
+          : freeCodeCamp:@devinci01
+
+          For this project we will build a survey form to collect data from  users.
+
+-->
+
+
+</head>
+
+<body>
+
+
+
+<form id="survey-form" action="https://survey-form.freecodecamp.rocks" method="post">
+
+    <h1 id="title" class="title">CONTACT US. </h1> <div class="bg-solid"></div>
+    <p id="description"> Fill out this form and one of our representative will contact you in 2-3 business days.</p>
+
+    <fieldset>
+        <div class="form-control">
+            <label class="label" for="name" id="name-label" required="">
+                NAME
+            </label>
+            <!-- Input Type Text -->
+            <input required="" type="text" class="textinput" id="name" placeholder="Enter your name">
+        </div>
+
+            <label class="label" for="email" id="email-label">
+                EMAIL ADDRESS
+            </label>            
+            <input required="" class="textinput" type="email" id="email" placeholder="Enter a valid email.">
+
+            <label class="label" for="contact" id="phone-label"> PHONE NUMBER </label>
+<input class="textinput" type="tel" id="phone" placeholder="Mobile/ Phone Number"/> 
+
+<label class="label" for="role" id="label-role">
+                CONTACT PREFERENCE
+            <!-- Dropdown options -->
+            <select name="role" class="dropdown" id="dropdown">
+                <option value="student">Call/Text</option>
+                <option value="intern">Email</option>
+                <option value="professional"> No Prefence.</option>
+                <option value="other">Do not contact me.</option>
+            </select> </label>
+        
+            </fieldset>
+
+     <fieldset>
+       
+        <label class="label" for="details">
+HOW CAN I HELP YOU? </label>
+
+        <textarea id="support-details" class="textarea" name="details" placeholder="Please provide relevant info that can help  resolve this issue."> </textarea>    
+           
+
+
+
+<label class='label' id= "number-label" name="number-label" > SEVERITY LEVEL <sup class="power"> †</sup>
+             <input class="sev" type="number" min=1 max=3 id="number" placeholder="1"/> 
+            </label>
+            
+        <!-- multi-line text input control -->
+
+    </fieldset>
+
+    
+
+        <!-- Input Type Radio Button -->
+<hr>
+    <fieldset>
+        <label for="subscribe-1">
+            <label for="newsletter">  <sup class="power"> †</sup> Would you like to receive SMS text updates this support ticket? <em>*</em><br></label>        <label>   <input type="radio" value="sub-1" name="subscribe" checked=""> Yes
+            <input class="radio" type="radio" name="subscribe" id="subscribe-0" value="sub-0"> No
+        </label>
+
+        <!-- Input Type Checkbox -->
+        <label for="inp-1" class="label">
+            <input type="checkbox" is= "newsletter" name="opt-in" value="opt-in"/> &nbsp;&nbsp;<sup class="power"> † </sup> I would like to receive emails from Synapse Networking Solutions  and its affiliates about promotions, products, industry resources, events and updates. <br></label>
+            <input type="checkbox" id="lua" name="lua" value="lua"> &nbsp;&nbsp; I agree to <a href="www.decoy.com"> Privacy Policy</a> and understand I can unsubscribe at any time.†>
+                   <input  id="submit"class="button" type="submit" value="Submit">
+                
+
+    </fieldset>
+    
+</form>
+<label class='label'>
+    <footer class="footer">
+            <div class="ulist">
+                <hr>
+               <a><strong>***</strong> LEVEL OF SEVERITY SEVERITY </a>
+               <ul>
+<li><strong>Level 1 </strong>Critical Impact/System Down. Complete system outage.</li>      
+       <li><strong>Level 2 </strong> Significant Impact/Severe downgrade of services</li>     <li><strong>Level 3 </strong>–Minor impact/Most of the system is functioning properly</li>        </ul>
+               
+                </div>
+            </label>
+<hr>
+
+  <em></em> SYNAPSE NETWORKING SOLUTIONS <br> PASADENA CA <br> <a href="mailto:services@synapse-net.systems">services@synapse-net.systems</a>  <br> 2023 
+    </footer>
+
+
+
+</body></html>
