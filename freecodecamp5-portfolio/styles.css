@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Major+Mono+Display&family=Montserrat&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    color:#333;
+    background-color:#fff;
+    margin:0;
+    padding:0;
+    font-weight: 700;
+    box-sizing:border-box;
+overflow: scroll;
+}
+section{
+    min-height: 300px;
+}
+
+#navbar{
+
+    background-color: #1a1e23;
+    color:#fff;
+    text-align:center;
+    border-bottom: 1px solid #333;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position:fixed;
+    width:100vw;
+    z-index:1;
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    flex-direction: column;
+    padding-top:1rem;
+    background-image:linear-gradient(var(--color-canvas-default), var(--color-canvas-default)),radial-gradient(circle at top left, var(--mktg-accent-primary, #9867f0), var(--mktg-accent-secondary, #ed4e50));
+
+}
+#nav-bar{
+    background-image:linear-gradient(var(--color-canvas-default), var(--color-canvas-default)),radial-gradient(circle at top left, var(--mktg-accent-primary, #9867f0), var(--mktg-accent-secondary, #ed4e50));
+    box-shadow: #cdcec65e 0px 0px 20px 0px;
+}
+#navbar a{
+    padding:1rem;
+    border-radius: 3px;;
+    color:hwb(0 100% 0%);
+    text-decoration:none;
+    transition: all 0.3s ease-in-out;
+}
+
+#navbar li{
+    list-style:none;
+    margin-left:2rem;
+    padding:1rem;
+    display:inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+
+section{
+    height:100vh;
+    display:flex;
+}
+
+#welcome-section{
+        /* background-image: url('https://github.githubassets.com/images/modules/site/services/hero-bg/services-hero-bg-1600.jpg'); */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        /* position: absolute; */
+        width: 100vw;
+        inset: 0;
+        transition: opacity 1s ease-in-out;
+        height: 100vh;
+        /* transform: scale(1.5); */
+        /* overflow: hidden; */
+    background-color: #f5f5f5;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding: 0 10px;
+}
+
+#welcome-section h1{
+    font-size: 15rem;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #333;
+    margin-bottom: 1rem;
+    text-shadow: 0px 0px 10px #fff;
+    text-align:center;
+    padding: 0 10px;
+}
+
+footer{
+    display: flex ;
+}
+
+#welcome-section a{
+    font-size: 2rem;
+    color:#333;
+    padding:.5rem;
+    transition: all 500ms ease-in-out;
+    scale: 1;
+
+}
+
+#welcome-section a:hover:nth-child(1){
+    color:#fcfcfc;
+    scale: 1.2;
+    font-weight: 700;
+    background-color:#186ee8;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.banner-btn{
+        max-width: 573px;
+        padding: 12px 16px;
+        background:rgb(96, 110, 150);
+        background: linear-gradient(90deg, rgba(1, 1, 1, 0.6) 0%, rgba(1, 1, 1, 0.461139) 59.76%, rgba(1, 1, 1, 0) 100%);
+        border-color: #a3c5ff !important;
+        border-radius: 100px;
+        color: #fcfcfc;
+    
+}
