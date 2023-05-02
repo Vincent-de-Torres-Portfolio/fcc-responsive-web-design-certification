@@ -1,0 +1,279 @@
+/*
+
+freeCodeCamp-Responsive-Web-Certification
+CertificationProject-1/5
+freeCodeCamp: DeVinci01
+GitHub: devinci
+
+
+*/
+
+
+/* Box 
+sizing rules */
+*,
+*::before,
+*::after {  
+
+
+box-sizing: border-box;
+
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+min-height: 100vh;
+text-rendering: optimizeSpeed;
+line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+max-width: 100%;
+display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+html:focus-within {
+ scroll-behavior: auto;
+}
+
+*,
+*::before,
+*::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+}
+/*  */
+html{
+  
+    padding: 0;
+    background: url("https://contenthub.netacad.com/sgp/nad/1.0/en-US/m1//course/en-US/assets/understanding-defense.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:relative;
+     background-position-y:bottom;
+
+}
+
+.img {
+    max-width: 100%;
+    display: block;
+  }
+body {
+  min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    color: lightgrey;
+    font-size: 16px;
+    margin:none;
+    padding:9;
+    }
+
+    form{
+      height: 100%;
+    }
+    
+#page-title,h1{
+    text-align: left; 
+    font:2em;
+    display:block;
+    font-family: 'Montserrat', sans-serif;margin:auto;
+    padding: 2em 0 .125em 0;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black;
+    }
+    
+
+.label {
+      display: block;
+      margin: 0.25rem 0;
+      min-height:1em;
+      padding:2rem 0 1rem 0;
+    }
+    
+
+
+    fieldset{
+        margin: auto;
+        border: 0;
+        padding: 12px;
+        min-width:100%;
+    }
+    
+
+    /*
+    input[name="profile-picture"]{
+      padding-top:1px;
+    }
+    */
+    a{
+      color:#dfdfe2;
+    }
+   
+
+    
+    .dropdown {
+      padding: 2px;
+      border: none;
+      height:2em;
+      color: rgba(43, 40, 40, 0.85);
+        border-radius: 2px;
+        background-color: rgba(255, 255, 255, 0.813);
+      
+    }
+    .textinput{
+        display: block;
+        font-family: 'Space Grotesk', sans-serif;
+        min-width:70%;
+        padding: .50rem;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.813);
+        border-radius: 2px;
+        max-height: 100%;
+        resize: none;
+        height: 2em;
+        color: rgba(43, 40, 40, 0.85);
+        font-size: .85em;
+    }
+
+    
+    
+    .input[type="checkbox"]{
+      padding:1px;
+      margin:auto;
+      display:inline;
+
+    }
+    /*header{
+      background-color: darkslategrey;
+      margin:auto;
+      min-height: 20%;
+    
+    }
+    */
+    
+    form{
+      padding: 5em;
+      min-height: 100%;
+      background-color: #010e0b9c;
+      max-width: 35%;
+    }
+    .textarea{     
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: .85em;
+        min-width:70%;        padding: .5rem;
+        height: 5rem;
+        border: none;
+        color: rgba(43, 40, 40, 0.85);
+        border-radius: 2px;
+        background-color: rgba(255, 255, 255, 0.813);
+        resize: none;
+    }
+    
+    p{
+    text-align: left;
+    font-family: 'Space Grotesk', sans-serif;
+      margin:auto;
+      color:rgba(0,0,0,0,.85);
+      text-shadow: 1px 1px 2px black;}
+    
+    
+    
+    .dropdown{
+        font-family: 'Space Grotesk', sans-serif;
+        margin: .5rem;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.813);
+        border-radius: 2px;
+        resize: none;
+        color: rgba(43, 40, 40, 0.85);
+        font-size: .85em;
+        display: block;
+    }
+    
+    .button {
+        background-color: #ffffffb3; /* Green */
+        border: gray;
+        color: black;
+        padding :2.5em;
+        display: block;
+        font-size: 1em;
+        transition-duration: 0.4s;
+        border-radius: 2px;
+        cursor: pointer;
+        margin:3rem 2em 2rem 0;
+        
+
+        
+      }
+      .button:hover {background-color: #959595;}
+
+.footer{
+  background-color: #02171522;
+  font-family: 'Space Grotesk', sans-serif;
+  text-align:center;
+  margin:0;
+  bottom:0;
+  padding:5rem 0 0 0 ;
+  font-weight:100;
+  font-size:.55rem;
+}
+hr{
+  border:solid white .5;
+  margin:2em;
+}
+
+.ulist{
+  text-align:left;
+  font-size:.75em;
+}
+
+.power{
+  position:top;
+  font-size:.5em;
+
+}
+
