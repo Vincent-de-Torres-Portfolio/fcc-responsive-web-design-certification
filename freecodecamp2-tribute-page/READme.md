@@ -1,4 +1,4 @@
-# freecodecamp1-survey-page
+# freecodecamp1-tribute-page
 
 
 ## __OBJECTIVE__
