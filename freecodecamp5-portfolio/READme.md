@@ -10,9 +10,13 @@ Objective: Build an app that is functionally similar to https://personal-portfol
 
 
 ---
+<!-- table -->
 
-![Alt text](assets/fcc-5-tablet-view.png)
-![Alt text](assets/fcc-5-desktop-view.png)
+| Desktop View | Tablet View |
+| :---: | :---: |
+| ![Alt text](assets/fcc5-desktop1.png) | ![Alt text](assets/fcc5-tablet1.png) | ![Alt text](assets/fcc5-mobile1.png) |
+| ![Alt text](assets/fcc5-desktop2.png) | ![Alt text](assets/fcc5-tablet2.png) | ![Alt text](assets/fcc5-mobile2.png) |
+| ![Alt text](assets/fcc5-desktop3.png) | ![Alt text](assets/fcc5-tablet3.png) | ![Alt text](assets/fcc5-mobile3.png) |
 
 
 ---
